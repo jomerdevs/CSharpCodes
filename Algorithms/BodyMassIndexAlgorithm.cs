@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace CSharpCodes
+namespace CSharpCodes.Algorithms
 {
     internal class BodyMassIndexAlgorithm
     {
@@ -23,7 +23,7 @@ namespace CSharpCodes
                 Console.WriteLine($"Tu índice de masa corporal es {bmi}, estás en sobrepeso");
             else if (bmi > 30)
                 Console.WriteLine($"Tu índice de masa corporal es {bmi}, sufres de obesidad");
-            
+
         }
     }
 }

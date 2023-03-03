@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace CSharpCodes
+namespace CSharpCodes.Algorithms
 {
     internal class MergeSortAlgorithm
     {
@@ -12,11 +12,11 @@ namespace CSharpCodes
         {
             int[] temp = new int[25];
             int i, left_end, num_elements, tmp_pos;
-            left_end = (mid - 1);
+            left_end = mid - 1;
             tmp_pos = left;
-            num_elements = (right - left + 1);
+            num_elements = right - left + 1;
 
-            while ((left <= left_end) && (mid <= right))
+            while (left <= left_end && mid <= right)
             {
                 if (numbers[left] <= numbers[mid])
                     temp[tmp_pos++] = numbers[left++];
@@ -43,8 +43,8 @@ namespace CSharpCodes
             {
                 mid = (right + left) / 2;
                 SortMethod(numbers, left, mid);
-                SortMethod(numbers, (mid + 1), right);
-                MergeMethod(numbers, left, (mid + 1), right);
+                SortMethod(numbers, mid + 1, right);
+                MergeMethod(numbers, left, mid + 1, right);
             }
         }
         // -------- IMPLEMENTATION / IMPLEMENTACION --------

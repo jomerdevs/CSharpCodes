@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace CSharpCodes
+namespace CSharpCodes.Algorithms
 {
     internal class DijkstraAlgorithm
     {
@@ -82,5 +82,5 @@ namespace CSharpCodes
 
         */
     }
-    
+
 }
