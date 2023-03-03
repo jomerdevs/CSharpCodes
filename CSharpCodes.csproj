@@ -7,4 +7,10 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="Accord" Version="3.2.0" />
+    <PackageReference Include="Accord.MachineLearning" Version="3.2.0" />
+    <PackageReference Include="Accord.Math" Version="3.2.0" />
+  </ItemGroup>
+
 </Project>

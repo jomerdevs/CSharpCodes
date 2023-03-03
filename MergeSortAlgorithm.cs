@@ -47,7 +47,6 @@ namespace CSharpCodes
                 MergeMethod(numbers, left, (mid + 1), right);
             }
         }
-
         // -------- IMPLEMENTATION / IMPLEMENTACION --------
 
         /*
